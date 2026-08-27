@@ -1,0 +1,22 @@
+# Excel, IDE, OS
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+.env
+*.~lock*
+*.tmp
+*.bak
+*.log
+
+# Ignorar dados sensíveis
+*.xlsx
+*.csv
+!sample_data/
+!planilhas/Simulador_FII_v*.xlsx
